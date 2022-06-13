@@ -1,0 +1,14 @@
+function handlelist(todo){
+  let li= document.createElement('li')
+  let btn= document.createElement('button')
+  
+  btn.addEventListener('click',handleDelete)
+  btn.textContent='x'
+  li.textContent= `${todo}`
+  li.appendChild(btn)
+  document.querySelector('#list').appendChild(p)
+    taskForm.reset
+
+}
+function handleDelete(e){
+  e.target.parentNode.remove()}
